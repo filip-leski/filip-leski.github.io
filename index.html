@@ -18,20 +18,19 @@
       #card {
         width: 620px;
         max-width: calc(100% - 20px);
-        height: 340px;
+        height: 250px;
         margin: 70px 0 10px 0;
         background: #fff;
         border-radius: 4px;
-        font-family: "Proxima Nova";
+        font-family: Helvetica, sans-serif;
         font-weight: 700;
         text-align: center;
-        line-height: 1.4;
         color: #333;
       }
       #image {
         width: 120px;
         height: 120px;
-        margin: -60px auto 10px auto;
+        margin: -60px auto 20px auto;
         background-image: url("filip.jpg");
         background-size: cover;
         border-radius: 50%;
@@ -42,14 +41,20 @@
         font-size: 20px;
         letter-spacing: 2px;
         text-transform: uppercase;
+        line-height: 1.5;
         margin: 0;
-        padding: 0;
       }
       h2 {
         font-size: 16px;
         margin: 0;
-        padding: 0;
       }
+      section {
+        margin-top: 10px;
+      }
+      a:link, a:visited {
+        color: #0365d6;
+        text-decoration: none;
+    }
     </style>
   </head>
   <body>
@@ -57,8 +62,9 @@
       <div id="card">
         <div id="image"></div>
         <h1>Filip Leski</h1>
-        <h2>Software Engineer in Boston, MA</h2>
-        <p><a href="https://github.com/filip-leski">GitHub</a> | <a href="https://www.linkedin.com/in/filip-leski/">LinkedIn</a></p>
+        <h2>Software Engineer</h2>
+        <section>
+          <a href="https://github.com/filip-leski" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/filip-leski/" target="_blank">LinkedIn </a></section>
       </div>
     </div>
   </body>
